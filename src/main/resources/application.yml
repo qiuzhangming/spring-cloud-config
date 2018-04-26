@@ -1,5 +1,5 @@
 server:
-  port: 8040
+  port: 8001
 spring:
   application:
     name: spring-cloud-config-server
@@ -11,3 +11,4 @@ spring:
           search-paths: config-repo
           username:
           password:
+      label: master
