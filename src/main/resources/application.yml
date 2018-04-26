@@ -14,9 +14,12 @@ spring:
       label: master
   rabbitmq:
     host: rabbitmq.zzwtt.cn
+    port: 5672
+    username: guest
+    password: guest
 
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8000/eureka/   ## 注册中心eurka地址
+      defaultZone: http://192.168.1.195:8000/eureka/   ## 注册中心eurka地址
 
